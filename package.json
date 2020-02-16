@@ -1,0 +1,38 @@
+{
+  "name": "webpack-l-w",
+  "version": "1.0.0",
+  "description": "WebPack-L-W",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webapck --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panasoniclam/WebPack-L-W.git"
+  },
+  "author": "lamnn8",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panasoniclam/WebPack-L-W/issues"
+  },
+  "homepage": "https://github.com/panasoniclam/WebPack-L-W#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
